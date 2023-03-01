@@ -38,7 +38,7 @@ namespace PuppeteerSharpTest
             // btnCapture
             // 
             this.btnCapture.Location = new System.Drawing.Point(715, 165);
-            this.btnCapture.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCapture.Margin = new System.Windows.Forms.Padding(4);
             this.btnCapture.Name = "btnCapture";
             this.btnCapture.Size = new System.Drawing.Size(208, 48);
             this.btnCapture.TabIndex = 0;
@@ -62,7 +62,7 @@ namespace PuppeteerSharpTest
             this.button1.TabIndex = 4;
             this.button1.Text = "get ProfileId";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // textBox2
             // 
@@ -81,7 +81,7 @@ namespace PuppeteerSharpTest
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnCapture);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

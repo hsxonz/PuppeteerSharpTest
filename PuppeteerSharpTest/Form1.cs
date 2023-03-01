@@ -103,10 +103,17 @@ namespace PuppeteerSharpTest
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
-            var id = getRandomProfileId();
-            textBox1.Text = id;
+            Genlogin a1 = new Genlogin();
+            var data1 = a1.deleteProfile("653867");
+            Console.WriteLine(data1);
+            //a1.createProfile("hello");
+            //var id = getRandomProfileId();
+            //textBox1.Text = id;
+            /*Genlogin myObject = new Genlogin();
+            myObject.MyMethod();*/
+
         }
     }
 }
